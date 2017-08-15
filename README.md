@@ -26,6 +26,6 @@ distributed via npm as follows:
 ```bash
 
 docker run --rm -it \
-  -v ~/github/prettier-install:/usr/local/lib/node_modules/prettier-install:ro
+  -v ~/github/prettier-install:/usr/local/lib/node_modules/prettier-install:ro \
   "prettier-install-scenarios:$(basename "$PWD")"
 ```
